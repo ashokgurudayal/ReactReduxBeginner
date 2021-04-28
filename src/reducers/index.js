@@ -4,7 +4,7 @@ import CounterReducer from "./counter";
 
 const allReducers = combineReducers({
   counter: CounterReducer,
-  isLogged: LoggedInReducer,
+  isLoggedState: LoggedInReducer,
 });
 
 export default allReducers;
